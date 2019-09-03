@@ -1,0 +1,12 @@
+<HTML>
+<body>
+	<h1> - Show me what you got - </h1>
+	<form>
+		<ul>
+		{% for item in combos %}
+			<li> <input type='checkbox' name="item" value="{{ item }}"> {{ item }} </option> </li>
+		{% endfor %}
+		</ul>
+		<input type='submit' value="Submit">
+	</form>
+</body>
