@@ -3,11 +3,10 @@ from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
 import json
-from jinja2 import Environment, FileSystemLoader, select_autoescape
-env = Environment(
-    loader=FileSystemLoader('templates'),
-    autoescape=select_autoescape(['html'])
-)
+from jinja2 import Template
+
+mainTemplate = Template(r"""<HTML><body><h1> - Show me what you got - </h1><form><ul>{% for item in combos %}<li> <input type='checkbox' name="item" value="{{ item }}"> {{ item }} </option> </li>{% endfor %}</ul><input type='submit' value="Submit"></form></body>""")
+responseTemplate = Template(r"""<HTML><body><h1> You can make... </h1><ul>{% for match in matches %}<li> {{ match }} </li>{% endfor %}</ul>""")
 
 names = """Aloo Chole with Coconut Rice
 Asparagus Black Bean with Coconut Rice
@@ -343,11 +342,9 @@ def main(request):
     if 'item' in request.params:
         items = request.params.dict_of_lists()['item']
         matches = parse(items)
-        template = env.get_template("response.html")
-        return Response(template.render(matches=matches))
+        return Response(responseTemplate.render(matches=matches))
     else:
-        template = env.get_template('main.html')
-        return Response(template.render(combos=list(COMBOS.keys())))
+        return Response(mainTemplate.render(combos=list(COMBOS.keys())))
 
 if __name__ == "__main__":
     with Configurator() as config:
