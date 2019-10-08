@@ -1,12 +1,19 @@
-<HTML>
+<doctype HTML>
+
+<style> body {background-color:lightblue; text-align: center;} ul {list-style: none;} </style>
+
+<head>
+	<h1>--==:: The Fremont Deli ::==--</h1>
+	|<a href="/togo"> TOGO </a>|
+</head>
 <body>
-	<h1> - Show me what you got - </h1>
-	<form>
-		<ul>
-		{% for item in combos %}
-			<li> <input type='checkbox' name="item" value="{{ item }}"> {{ item }} </option> </li>
-		{% endfor %}
-		</ul>
-		<input type='submit' value="Submit">
-	</form>
-</body>
+	<p>
+		<h3>Welcome!</h3> 
+		This is a website I made to help make To-Go's at my work at the Fremont Pcc Deli
+
+		<h3>How do I use this?</h3>
+		Its easy! Click the <a href="/togo">TOGO</a> link, fill it out with everything you have prepped, press submit, and you have your list! No more looking through the scale to find what goes with what! No more memorizing!
+
+
+	</p>
+</body> 

@@ -14,7 +14,7 @@ Chicken Salad Piccata with Zucchini Noodle Pesto
 Chicken Taquitos with Black Bean and Corn Salad
 Chicken Taquitos with Guacamole
 Chicken Taquitos with Salsa Rojo
-Chicken Verz Cruz with Texas Quinoa Tabouli
+Chicken Vera Cruz with Texas Quinoa Tabouli
 Chipotle Lime Yams with Black Bean and Corn Salad
 Chipotle Lime Yams with Coconut Rice
 Chipotle Lime Yams with Pepita Rice
@@ -34,7 +34,7 @@ Cuban Picadillo with Pepita Rice
 Cuban Picadillo with Seasoned Basmati Rice
 Curried Cashew Tofu with Coconut Rice
 Curried Cashew Tofu with Ginger Udon
-Curried Cashew Tofu with Sesame Edamame Quinoa
+Curried Cashew Tofu with Sesame Quinoa Edamame Salad
 East of the Lake Tofu with Asian Capellini
 East of the Lake Tofu with Indonesian Rice
 East of the Lake Tofu with Kelp Noodle Salad
@@ -81,7 +81,7 @@ Grilled Chicken with Roasted Squash w/Apples and Bacon
 Grilled Chicken with Roasted Tomato Pasta
 Grilled Chicken with Roasted Vegetables
 Grilled Chicken with Roasted Winter Vegetables
-Grilled Chicken with Roasted Yam and Kale Salad
+Grilled Chicken with Roasted Yam and Kale
 Grilled Chicken with Sage Stuffing
 Grilled Chicken with Sicilian Orzo
 Grilled Chicken with Smoked Mozzarella Pasta
@@ -120,7 +120,7 @@ Parmesan Chicken Fingers with Italian Broccoli
 Parmesan Chicken Fingers with Lemon Capellini
 Parmesan Chicken Fingers with Marinara
 Parmesan Chicken Fingers with Pesto Tortellini
-Parmesan Chicken Fingers with Roasted Cauliflower w Tahini
+Parmesan Chicken Fingers with Cauliflower Tahini
 Parmesan Chicken Fingers with Roasted Tomato Pasta
 Parmesan Chicken Fingers with Sicilian Orzo
 Parmesan Chicken Fingers with Zucchini Noodle Pesto
@@ -182,7 +182,7 @@ Salmon with Roasted Squash w/Apples and Bacon
 Salmon with Roasted Tomato Pasta
 Salmon with Roasted Vegetables
 Salmon with Roasted Winter Vegetables
-Salmon with Roasted Yams and Kale
+Salmon with Roasted Yam and Kale
 Salmon with Sesame Quinoa Edamame Salad
 Salmon with Sweet Chili Vegetables
 Salmon with Tangerine Wild RIce and Farro
@@ -239,7 +239,7 @@ Steph's Tofu with Roasted Brussels Sprouts
 Steph's Tofu with Roasted Vegetables
 Steph's Tofu with Sesame Quinoa Edamame Salad
 Steph's Tofu with Sweet Chili Vegetables
-Steph's Tofu with Tahini Cauliflower
+Steph's Tofu with Cauliflower Tahini
 Steph's Tofu with Texas Quinoa Tabouli
 Steph's Tofu with Thai Glazed Bok Choy
 Steph's Tofu with Turkish Garbanzo Salad
@@ -275,11 +275,11 @@ Thai Steak Salad with Indonesian Rice
 Thai Steak Salad with Kelp Noodles
 Thai Steak Salad with Lemon Capellini
 Thai Steak Salad with Red Curry Vegetables
-Thai Steak Salad with Sesame Edamame Quinoa
+Thai Steak Salad with Sesame Quinoa Edamame Salad
 Thai Steak Salad with Sesame Snap Peas
 Thai Steak Salad with Sweet Chili Vegetables
-Thai Steak with Red Curry Asparagus Rice
-Turkey Loaf with Mashed Yams and Goat Cheese
+Thai Steak Salad with Red Curry Asparagus Rice
+Turkey Meatloaf with Mashed Yams and Goat Cheese
 Turkey Meatloaf with Autumn Orzo
 Turkey Meatloaf with Bacon Bleu Cheese Potato Salad
 Turkey Meatloaf with Black Bean and Corn Salad

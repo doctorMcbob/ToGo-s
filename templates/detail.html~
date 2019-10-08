@@ -1,10 +1,14 @@
-<HTML>
+<doctype HTML>
+
 <style> body {background-color:lightblue; text-align: center;} ul {list-style: none;} </style>
+
 <body>
 	<h1>,.+*"*+.,,.+* To-Go Calculator *+.,,.+*"*+.,</h1>
-	<h1> You can make... </h1>
+	<a href="/togo"> << Reset </a>
+	<h2> {{ item }} can partner with...</h2>
 	<ul>
-		{% for match in matches %}
-		<li> {{ match }} </li>
-		{% endfor %}
+
+	  
+		
 	</ul>
+</body>
