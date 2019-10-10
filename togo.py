@@ -68,5 +68,5 @@ if __name__ == "__main__":
         config.add_route("detail", "/togo/{item}")
         config.add_view(detail, route_name="detail")
         app = config.make_wsgi_app()
-    server = make_server('0.0.0.0', 6543, app)
+    server = make_server('127.0.0.1', 8000, app)
     server.serve_forever()
