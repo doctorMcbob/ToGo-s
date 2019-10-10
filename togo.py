@@ -14,11 +14,16 @@ with open("templates/response.html") as f:
 with open("templates/detail.html") as f:
     detailTemplate = Template(f.read())
     
-with open("TOGS.txt") as f:
-    names = f.read().splitlines()
+with open("PLUs.txt") as f:
+    PLUS = f.read().splitlines()
+
+names = {}
+for plu in PLUS:
+    item, code = plu.split(",")
+    names[item] = code
 
 deliItems = []
-for name in names:
+for name in names.keys():
     item1, item2 = name.split(" with ")
     if item1 not in deliItems:
         deliItems.append(item1)
@@ -31,7 +36,7 @@ def parse(items):
     for name in names:
         item1, item2 = name.split(" with ")
         if item1 in items and item2 in items:
-            matches.append(name)
+            matches.append(name + " | " + names[name])
     return matches
 
 def togo(request):
@@ -48,7 +53,7 @@ def main(request):
 def detail(request):
     item=request.matchdict['item']
     matches=[]
-    for name in names:
+    for name in names.keys():
         item1, item2 = name.split(" with ")
         if item == item1: matches.append(item2)
         if item == item2: matches.append(item1)
