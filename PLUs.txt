@@ -14,7 +14,6 @@ Chicken Salad Piccata with Zucchini Noodle Pesto,3899
 Chicken Taquitos with Black Bean and Corn Salad,6000
 Chicken Taquitos with Guacamole,7615
 Chicken Taquitos with Salsa Rojo,7614
-Chicken Vera Cruz with Texas Quinoa Tabouli,3925
 Chipotle Lime Yams with Black Bean and Corn Salad,3920
 Chipotle Lime Yams with Coconut Rice,3917
 Chipotle Lime Yams with Pepita Rice,3918
@@ -92,7 +91,7 @@ Grilled Chicken with Thai Glazed Bok Choy,6036
 Grilled Chicken with Zucchini Noodle Pesto,3881
 Herbed Chicken Thigh with Lemon Capellini,3948
 Indonesian Rice with Sesame Snap Peas,6809
-Kelp Noodles with Sesame Snap Peas,6808
+Kelp Noodle Salad with Sesame Snap Peas,6808
 Lemon Capellini with Italian Broccoli,3950
 Lemon Capellini with Zucchini Noodle Pesto,3905
 Lemon Dill Cod with Emerald City Salad,8375
@@ -101,11 +100,10 @@ Lemon Dill Cod with Roasted Fingerling Potatoes,8377
 Mango Curry Tofu with Brown Rice,4668
 Mango Curry Tofu with Coconut Rice,1672
 Mango Curry Tofu with Indonesian Rice,6806
-Mango Curry Tofu with Kelp Noodles,6801
+Mango Curry Tofu with Kelp Noodle Salad,6801
 Momo's chicken with Coconut Rice,1655
 Moroccan Chicken with Chipotle Lime Yams,3913
 Moroccan Chicken with Roasted Fingerling Potatoes,8185
-Moroccan Chicken with Yams,8630
 Orange Sesame Short Ribs with Asian Capellini,6586
 Orange Sesame Short Ribs with Coconut Rice,6587
 Orange Sesame Short Ribs with Sicilian Orzo,6589
@@ -187,14 +185,14 @@ Salmon with Roasted Yam and Kale,8511
 Salmon with Sesame Quinoa Edamame Salad,6128
 Salmon with Sweet Chili Vegetables,6207
 Salmon with Tangerine Wild RIce and Farro,6585
-Salmon with Thai Bok Choy,6208
 Salmon with Zucchini Noodle Pesto,3883
+Salmon with Thai Glazed Bok Choy,6208
 Sicilian Orzo with Italian Broccoli,3978
 Southeast Asian Tempeh with Asian Capellini,6233
 Southeast Asian Tempeh with Brown Rice,3086
 Southeast Asian Tempeh with Coconut Rice,6232
 Southeast Asian Tempeh with Indonesian Rice,6231
-Southeast Asian Tempeh with Kelp Noodles,6234
+Southeast Asian Tempeh with Kelp Noodle Salad,6234
 Southeast Asian Tempeh with Red Curry Vegetables,6229
 Southeast Asian Tempeh with Sweet Chili Vegetables,6227
 Southeast Asian Tempeh with Thai Glazed Bok Choy,6228
@@ -257,7 +255,7 @@ Thai Chili Tofu with Asian Capellini,6247
 Thai Chili Tofu with Coconut Rice,6246
 Thai Chili Tofu with Glazed Bok Choy,6236
 Thai Chili Tofu with Indonesian Rice,6238
-Thai Chili Tofu with Kelp Noodles,6248
+Thai Chili Tofu with Kelp Noodle Salad,6248
 Thai Chili Tofu with Red Curry Vegetables,6237
 Thai Chili Tofu with Sweet Chili Vegetables,6235
 Thai Glazed Bok Choy with Asian Capellini,6255
@@ -265,7 +263,7 @@ Thai Glazed Bok Choy with Coconut Rice,6256
 Thai Salmon with Asian Capellini,6799
 Thai Salmon with Coconut Rice,6797
 Thai Salmon with Indonesian Rice,6794
-Thai Salmon with Kelp Noodles,6796
+Thai Salmon with Kelp Noodle Salad,6796
 Thai Salmon with Sesame Snap Peas,6798
 Thai Steak Salad with Asian Capellini,3954
 Thai Steak Salad with Asparagus Black Bean,7669
@@ -275,7 +273,7 @@ Thai Steak Salad with Ginger Udon,3955
 Thai Steak Salad with Glazed Bok Choy,6222
 Thai Steak Salad with Grilled Green Beans,8627
 Thai Steak Salad with Indonesian Rice,6807
-Thai Steak Salad with Kelp Noodles,6803
+Thai Steak Salad with Kelp Noodle Salad,6803
 Thai Steak Salad with Lemon Capellini,3945
 Thai Steak Salad with Red Curry Rice,3526
 Thai Steak Salad with Red Curry Vegetables,6223
