@@ -1,15 +1,20 @@
-<HTML>
-<style>body {background-color:lightblue;text-align: center;font-family: "helvetica", Helvetica, sans;} input.item {transform: scale(1.4); margin: 5px;} ul {list-style: none;}</style>
+<!DOCTYPE HTML>
+<head>
+  <style>body {background-color:lightblue;text-align: center;font-family: "helvetica", Helvetica, sans;} input.item {transform: scale(1.4); margin: 5px;} ul {list-style: none;}</style>
+</head>
 <body>
-	<h1>,.+*"*+.,,.+* To-Go Calculator *+.,,.+*"*+.,</h1>
-	<form>
-		<input type='submit' value='Submit'>
-		<ul>
-		{% for item in items %}
-		<li> <input class="item" type='checkbox' name="item" value="{{ item }}">
-		  {{ item }}
-		  <a href="/togo/{{ item }}"> [\?] </a></li>
-		{% endfor %}
-		</ul>
-	</form>
+  <h1>,.+*"*+.,,.+* To-Go Calculator *+.,,.+*"*+.,</h1>
+  <form>
+    <input type='submit' value='Submit'>
+    <ul>
+      {% for item in items %}
+      <li> <input class="item" type='checkbox' name="item" value="{{ item }}">
+	{{ item }}
+	<a href="/togo/{{ item }}"> [\?] </a></li>
+      {% endfor %}
+    </ul>
+  </form>
 </body>
+<foot>
+  <script src="/script.js"></script>
+</foot>

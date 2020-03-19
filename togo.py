@@ -2,6 +2,7 @@
 from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
+from pyramid.renderers import render_to_response
 import json
 from jinja2 import Template
 
@@ -13,8 +14,10 @@ with open("templates/response.html") as f:
     responseTemplate = Template(f.read())
 with open("templates/detail.html") as f:
     detailTemplate = Template(f.read())
-    
-with open("PLUs.txt") as f:
+with open("templates/script.js") as f:
+    JS = f.read()
+
+with open("PLUs2.txt") as f:
     PLUS = f.read().splitlines()
 
 names = {}
@@ -55,9 +58,12 @@ def detail(request):
     matches=[]
     for name in names.keys():
         item1, item2 = name.split(" with ")
-        if item == item1: matches.append(item2)
-        if item == item2: matches.append(item1)
+        if item == item1: matches.append(item2 + " | " + names[name])
+        if item == item2: matches.append(item1 + " | " + names[name])
     return Response(detailTemplate.render(item=item, matches=matches))
+
+def get_js(request):
+    return render_to_response("string", JS)
 
 if __name__ == "__main__":
     with Configurator() as config:
@@ -67,6 +73,8 @@ if __name__ == "__main__":
         config.add_view(togo, route_name="togo")
         config.add_route("detail", "/togo/{item}")
         config.add_view(detail, route_name="detail")
+        config.add_route("js", "/script.js")
+        config.add_view(get_js, route_name="js")
         app = config.make_wsgi_app()
     server = make_server('127.0.0.1', 8000, app)
     server.serve_forever()

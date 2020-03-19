@@ -73,6 +73,7 @@ Grilled Chicken with Mushroom Risotto Cake
 Grilled Chicken with Pecorino Quinoa and Kale
 Grilled Chicken with Pesto Tortellini
 Grilled Chicken with Pumpkin Ravioli
+Grilled Chicken with Red Curry Rice
 Grilled Chicken with Red Curry Vegetables
 Grilled Chicken with Roasted Brussels Sprouts
 Grilled Chicken with Roasted Fingerling Potatoes
@@ -207,6 +208,7 @@ Spicy Chicken Thighs with Chipotle Lime Yams
 Spicy Chicken Thighs with Emerald City Salad
 Spicy Chicken Thighs with Gremolata Green Beans
 Spicy Chicken Thighs with Moroccan Yams
+Spicy Chicken Thighs with Red Curry Rice
 Spicy Chicken Thighs with Red Curry Vegetables
 Spicy Chicken Thighs with Roasted Brussels Sprouts
 Spicy Chicken Thighs with Roasted Fingerling Potatoes
@@ -234,6 +236,7 @@ Steph's Tofu with Italian Broccoli
 Steph's Tofu with Kelp Noodle Salad
 Steph's Tofu with Moroccan Yams
 Steph's Tofu with Red Curry Asparagus Rice
+Steph's Tofu with Red Curry Rice
 Steph's Tofu with Red Curry Vegetables
 Steph's Tofu with Roasted Brussels Sprouts
 Steph's Tofu with Roasted Vegetables
@@ -274,6 +277,7 @@ Thai Steak Salad with Grilled Green Beans
 Thai Steak Salad with Indonesian Rice
 Thai Steak Salad with Kelp Noodles
 Thai Steak Salad with Lemon Capellini
+Thai Steak Salad with Red Curry Rice
 Thai Steak Salad with Red Curry Vegetables
 Thai Steak Salad with Sesame Quinoa Edamame Salad
 Thai Steak Salad with Sesame Snap Peas
