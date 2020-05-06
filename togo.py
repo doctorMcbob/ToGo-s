@@ -17,7 +17,7 @@ with open("templates/detail.html") as f:
 with open("templates/script.js") as f:
     JS = f.read()
 
-with open("PLUs2.txt") as f:
+with open("PLUs3.txt") as f:
     PLUS = f.read().splitlines()
 
 names = {}
