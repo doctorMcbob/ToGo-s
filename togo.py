@@ -1,5 +1,5 @@
 #togo.py 
-from wsgiref.simple_server import make_server
+import waitress
 from pyramid.config import Configurator
 from pyramid.response import Response
 from pyramid.renderers import render_to_response
@@ -81,5 +81,5 @@ if __name__ == "__main__":
         config.add_route("js", "/script.js")
         config.add_view(get_js, route_name="js")
         app = config.make_wsgi_app()
-    server = make_server('127.0.0.1', 8000, app)
-    server.serve_forever()
+    waitress.serve(app, port=8000)
+
