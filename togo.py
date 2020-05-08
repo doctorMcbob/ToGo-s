@@ -17,8 +17,13 @@ with open("templates/detail.html") as f:
 with open("templates/script.js") as f:
     JS = f.read()
 
-with open("PLUs3.txt") as f:
+with open("PLUs4.txt") as f:
     PLUS = f.read().splitlines()
+
+
+always_count_whitelist = [
+    "Brown Rice", "Brown Rice and Kale", "Guacamole", "Marinara", "Salsa"
+]
 
 names = {}
 for plu in PLUS:
@@ -28,17 +33,17 @@ for plu in PLUS:
 deliItems = []
 for name in names.keys():
     item1, item2 = name.split(" with ")
-    if item1 not in deliItems:
-        deliItems.append(item1)
-    if item2 not in deliItems:
-        deliItems.append(item2)
+    for item in (item1, item2):
+        if item not in deliItems and item not in always_count_whitelist:
+            deliItems.append(item)
+
 deliItems.sort()
 
 def parse(items):
     matches = []
     for name in names:
         item1, item2 = name.split(" with ")
-        if item1 in items and item2 in items:
+        if ( item1 in items and item2 in items ) or ( item1 in items and item2 in always_count_whitelist ):
             matches.append(name + " | " + names[name])
     return matches
 
