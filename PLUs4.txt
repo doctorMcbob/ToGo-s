@@ -15,7 +15,7 @@ Chicken Salad Piccata with Zucchini Noodle Pesto,3899
 Chicken Taquitos with Black Bean and Corn Salad,6000
 Chicken Taquitos with Guacamole,7615
 Chicken Taquitos with Salsa,7614
-Chicken Vera Cruz with Texas Quinoa Tabouli,3925
+Grilled Chicken Vera Cruz with Texas Quinoa Tabouli,3925
 Chipotle Lime Yams with Black Bean and Corn Salad,3920
 Chipotle Lime Yams with Coconut Rice,3917
 Chipotle Lime Yams with Pepita Rice,3918
