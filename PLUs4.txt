@@ -1,6 +1,6 @@
 Aloo Chole with Coconut Rice,1651
 Asparagus Black Bean with Coconut Rice,7671
-Beef Stew with The Works Mashed Potatoes,9164
+Beef Stew with The Works Mashed Potatoes,7124
 Black Bean and Corn Salad with Pepita Rice,3943
 Black Bean and Corn Salad with Texas Quinoa Tabouli,3944
 Blueberry Poblano Chicken with Black Bean and Corn Salad,3939
@@ -85,7 +85,7 @@ Grilled Chicken with Sweet Chili Vegetables,6035
 Grilled Chicken with Tangerine Wild Rice and Farro,6095
 Grilled Chicken with Texas Quinoa Tabouli,3924
 Grilled Chicken with Thai Glazed Bok Choy,6036
-Grilled Chicken with The Works Mashed Potatoes,9159
+Grilled Chicken with The Works Mashed Potatoes,7031
 Grilled Chicken with Zucchini Noodle Pesto,3881
 Herbed Chicken Thigh with Lemon Capellini,3948
 Indonesian Rice with Sesame Snap Peas,6809
@@ -140,7 +140,7 @@ Pepper Beef with Roasted Fingerling Potatoes,8634
 Pepper Beef with Roasted Vegetables,6018
 Pepper Beef with Roasted Winter Vegetables,7000
 Pepper Beef with Smoked Mozzarella Pasta,8189
-Pepper Beef with The Works Mashed Potatoes,9161
+Pepper Beef with The Works Mashed Potatoes,7125
 Pepper Beef with Walnut Beets,6120
 Pepper Beef with Zucchini Noodle Pesto,3887
 Pesto Tortellini with Italian Broccoli,3979
@@ -175,12 +175,12 @@ Salmon with Roasted Potato Dill Salad,6791
 Salmon with Roasted Tomato Pasta,6122
 Salmon with Roasted Vegetables,6781
 Salmon with Roasted Winter Vegetables,7003
-Salmon with Roasted Yams and Kale,8511
+Salmon with Roasted Yam and Kale,8511
 Salmon with Sesame Quinoa Edamame Salad,6128
 Salmon with Sweet Chili Vegetables,6207
 Salmon with Tangerine Wild Rice and Farro,6585
 Salmon with Thai Glazed Bok Choy,6208
-Salmon with The Works Mashed Potatoes,9162
+Salmon with The Works Mashed Potatoes,7127
 Salmon with Zucchini Noodle Pesto,3883
 Sicilian Orzo with Italian Broccoli,3978
 Southeast Asian Tempeh with Asian Capellini,6233
@@ -212,7 +212,7 @@ Spicy Chicken Thighs with Smoked Mozzarella Pasta,8193
 Spicy Chicken Thighs with Sweet Chili Vegetables,6038
 Spicy Chicken Thighs with Texas Quinoa Tabouli,3929
 Spicy Chicken Thighs with Thai Glazed Bok Choy,6039
-Spicy Chicken Thighs with The Works Mashed Potatoes,9163
+Spicy Chicken Thighs with The Works Mashed Potatoes,7032
 Spicy Tofu with Brown Rice,3211
 Steph's Tofu Rama with Coconut Rice,1658
 Steph's Tofu with Asian Capellini,7613
@@ -292,7 +292,7 @@ Turkey Meatloaf with Roasted Yam and Kale,6112
 Turkey Meatloaf with Sicilian Orzo,1685
 Turkey Meatloaf with Smoked Mozzarella Pasta,8196
 Turkey Meatloaf with Texas Quinoa Tabouli,3928
-Turkey Meatloaf with The Works Mashed Potatoes,9160
+Turkey Meatloaf with The Works Mashed Potatoes,7131
 Turkey Meatloaf with Walnut Beets,6121
 Turkey Meatloaf with Zucchini Noodle Pesto,3886
 Turkey with Gremolata Green Beans,3520
