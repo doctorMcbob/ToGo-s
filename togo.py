@@ -14,6 +14,8 @@ with open("templates/response.html") as f:
     responseTemplate = Template(f.read())
 with open("templates/detail.html") as f:
     detailTemplate = Template(f.read())
+with open("templates/somethingbigger.html") as f:
+    sobigTemplate = Template(f.read())
 with open("templates/script.js") as f:
     JS = f.read()
 
@@ -58,6 +60,9 @@ def togo(request):
 def main(request):
     return Response(mainTemplate.render())
 
+def somethingBigger(request):
+    return Response(sobigTemplate.render())
+
 def detail(request):
     item=request.matchdict['item']
     matches=[]
@@ -78,6 +83,8 @@ if __name__ == "__main__":
         config.add_view(togo, route_name="togo")
         config.add_route("detail", "/togo/{item}")
         config.add_view(detail, route_name="detail")
+        config.add_route("sobig", "/somethingbigger")
+        config.add_view(somethingBigger, route_name="sobig")
         config.add_route("js", "/script.js")
         config.add_view(get_js, route_name="js")
         app = config.make_wsgi_app()
