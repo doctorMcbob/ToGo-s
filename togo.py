@@ -6,6 +6,8 @@ from pyramid.renderers import render_to_response
 import json
 from jinja2 import Template
 
+with open("templates/problemstatement.html") as f:
+    probTemplate = Template(f.read())
 with open("templates/main.html") as f:
     mainTemplate = Template(f.read())
 with open("templates/calculator.html") as f:
@@ -72,6 +74,9 @@ def detail(request):
         if item == item2: matches.append(item1 + " | " + names[name])
     return Response(detailTemplate.render(item=item, matches=matches))
 
+def why(req):
+    return Response(probTemplate.render())
+
 def get_js(request):
     return render_to_response("string", JS)
 
@@ -85,6 +90,8 @@ if __name__ == "__main__":
         config.add_view(detail, route_name="detail")
         config.add_route("sobig", "/somethingbigger")
         config.add_view(somethingBigger, route_name="sobig")
+        config.add_route("why", "/why")
+        config.add_view(why, route_name="why")
         config.add_route("js", "/script.js")
         config.add_view(get_js, route_name="js")
         app = config.make_wsgi_app()
