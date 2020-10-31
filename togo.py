@@ -21,7 +21,7 @@ with open("templates/somethingbigger.html") as f:
 with open("templates/script.js") as f:
     JS = f.read()
 
-with open("PLUs4.txt") as f:
+with open("PLUs6.txt") as f:
     PLUS = f.read().splitlines()
 
 
