@@ -1,0 +1,21 @@
+body {
+    background-color:lightblue;
+    text-align: center;
+    font-family: "helvetica", Helvetica, sans;
+}
+
+input.item {
+    transform: scale(1.4);
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+}
+
+#sobig {
+    display: inline-block;
+    text-align: left;
+}

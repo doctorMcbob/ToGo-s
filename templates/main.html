@@ -1,32 +1,31 @@
-<doctype HTML>
-<style>body {background-color:lightblue;text-align: center;font-family: "helvetica", Helvetica, sans;} input.item {transform: scale(1.4); margin: 5px;} ul {list-style: none;}</style>
-<head>
-  <h1>--==:: The Fremont Deli ::==--</h1>
-  last update : October 30 2020 <br>
-  <br> <br>
-  Shoutouts to Pizza Pete
-  <br>
-  |<a href="/togo"> TOGO </a>|<a href="/somethingbigger"> Something Bigger </a>|<a href="/why"> WHY </a>|
-</head>
-<body>
-  <br><br><br>
-  <p>
-    <h3>Welcome!</h3> 
-    This is a website I made to help make To-Go's at my work at the Fremont Pcc Deli,<br>though now I work at the Ballard location.
-    <br>
-    I have written a problem statement <a href="/why"> here </a>, if any of you want to pass it along up the chain, let them know you like the site!
-    <br>
-    <a href="https://www.speedrun.com/famaze">Did you know I have a speedrun world record</a>
-    
-    <h3>How do I use this?</h3>
-    Its easy! Click the <a href="/togo">TOGO</a> link, fill it out with everything you have, press submit, and you have your list!<br>
-    No more looking through the scale to find what goes with what! No more memorizing!
-    
-    <h3>What if I have a problem with the website?</h3>
-    You can easily contact me at wootenwesley@gmail.com<br>
-    Or maybe you even have a cool idea for a way this webspace could help you in another shift?<br>
-    Think about it.
-    <a href='https://github.com/doctorMcbob/ToGo-s'>feel free to look at the source code</a>
-  </p>
+{% extends "base.html" %}
 
-</body> 
+{% block content %}
+<h1>--==:: The Fremont Deli ::==--</h1>
+last update : Nov 2 2020 <br>
+This ones for Pietro
+<br> <br>
+Check out my other site <a href="http://wesleyscoolsite.com">wesleys cool site.com</a>
+<br><br>
+|<a href="/togo"> TOGO </a>|<a href="/somethingbigger"> Something Bigger </a>|<a href="/why"> WHY </a>|
+<br><br><br>
+<p>
+  <h3>Welcome!</h3> 
+  This is a website I made to help make To-Go's at my work at the Fremont Pcc Deli,<br>though now I work at the Ballard location.
+  <br>
+  I have written a problem statement <a href="/why"> here </a>, if any of you want to pass it along up the chain, let them know you like the site!
+  <br>
+  <a href="https://www.speedrun.com/famaze">Did you know I have a speedrun world record</a>
+  
+  <h3>How do I use this?</h3>
+  Its easy! Click the <a href="/togo">TOGO</a> link, fill it out with everything you have, press submit, and you have your list!<br>
+  No more looking through the scale to find what goes with what! No more memorizing!
+  
+  <h3>What if I have a problem with the website?</h3>
+  You can easily contact me at wootenwesley@gmail.com<br>
+  Or maybe you even have a cool idea for a way this webspace could help you in another shift?<br>
+  Think about it.
+  <a href='https://github.com/doctorMcbob/ToGo-s'>feel free to look at the source code</a>
+</p>
+
+{% endblock %}

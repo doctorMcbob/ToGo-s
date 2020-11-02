@@ -33,7 +33,7 @@ Chipotle Salmon Cake with Roasted Potato Dill Salad,6804
 Chipotle Salmon Cake with Sauteed Greens,4008
 Chipotle Salmon Cake with Smoked Mozzarella Pasta,4011
 Chipotle Salmon Cake with The Works Mashed Potatoes,4006
-Chipotle Salmon Cake with Turkish Garbanzos,4010
+Chipotle Salmon Cake with Turkish Garbanzo Salad,4010
 Chipotle Salmon Cake with Zucchini Noodle Pesto,6793
 Coconut Mango Chicken with Coconut Rice,6205
 Coconut Mango Chicken with Indonesian Rice,6204
@@ -185,7 +185,7 @@ Roast Pork Loin with Mushroom Risotto Cake,4055
 Roast Pork Loin with Roasted Winter Vegetables,4056
 Roast Pork Loin with Roasted Yam and Kale,4057
 Roast Pork Loin with Smoked Mozzarella Pasta,4059
-Roast Pork Loin with The Works Potatoes,4060
+Roast Pork Loin with The Works Mashed Potatoes,4060
 Roast Pork Loin with Warm Winter Squash,4061
 Roast Pork Loin with Autumn Orzo,4047
 Roast Pork Loin with Sage Stuffing,4058
@@ -221,7 +221,7 @@ Salmon with Sesame Quinoa Edamame Salad,6128
 Salmon with Sweet Chili Vegetables,6207
 Salmon with Tangerine Wild Rice and Farro,6585
 Salmon with Thai Glazed Bok Choy,6208
-Salmon with The Works Mashed Potato,7127
+Salmon with The Works Mashed Potatoes,7127
 Salmon with Zucchini Noodle Pesto,3883
 Sicilian Orzo with Italian Broccoli,3978
 Southeast Asian Tempeh with Asian Capellini,6233

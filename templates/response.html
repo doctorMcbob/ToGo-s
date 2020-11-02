@@ -1,11 +1,12 @@
-<HTML>
-<style>body {background-color:lightblue;text-align: center;font-family: "helvetica", Helvetica, sans;} input.item {transform: scale(1.4); margin: 5px;} ul {list-style: none;}</style>
-<body>
-	<h1>,.+*"*+.,,.+* To-Go Calculator *+.,,.+*"*+.,</h1>
-	<a href="/togo"> << Reset </a>
-	<h1> You can make... </h1>
-	<ul>
-		{% for match in matches %}
-		<li> {{ match }} </li>
-		{% endfor %}
-	</ul>
+{% extends "base.html" %}
+
+{% block content %}
+<h1>,.+*"*+.,,.+* To-Go Calculator *+.,,.+*"*+.,</h1>
+<a href="/togo"> << Reset </a>
+<h1> You can make... </h1>
+<ul>
+  {% for match in matches %}
+  <li> {{ match }} </li>
+  {% endfor %}
+</ul>
+{% endblock %}

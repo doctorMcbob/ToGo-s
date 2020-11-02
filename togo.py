@@ -4,26 +4,16 @@ from pyramid.config import Configurator
 from pyramid.response import Response
 from pyramid.renderers import render_to_response
 import json
-from jinja2 import Template
+from jinja2 import Environment, PackageLoader, select_autoescape
 
-with open("templates/problemstatement.html") as f:
-    probTemplate = Template(f.read())
-with open("templates/main.html") as f:
-    mainTemplate = Template(f.read())
-with open("templates/calculator.html") as f:
-    calculatorTemplate = Template(f.read())
-with open("templates/response.html") as f:
-    responseTemplate = Template(f.read())
-with open("templates/detail.html") as f:
-    detailTemplate = Template(f.read())
-with open("templates/somethingbigger.html") as f:
-    sobigTemplate = Template(f.read())
-with open("templates/script.js") as f:
-    JS = f.read()
+template_env = Environment(
+    loader=PackageLoader("togo", "templates"),
+    autoescape=select_autoescape(['html', 'xml'])
+)
 
+# SET UP
 with open("PLUs6.txt") as f:
     PLUS = f.read().splitlines()
-
 
 always_count_whitelist = [
     "Brown Rice", "Brown Rice and Kale", "Guacamole", "Marinara", "Salsa"
@@ -55,15 +45,15 @@ def togo(request):
     if 'item' in request.params:
         items = request.params.dict_of_lists()['item']
         matches = parse(items)
-        return Response(responseTemplate.render(matches=matches))
+        return Response(template_env.get_template("response.html").render(matches=matches))
     else:
-        return Response(calculatorTemplate.render(items=deliItems))
+        return Response(template_env.get_template("calculator.html").render(items=deliItems))
 
 def main(request):
-    return Response(mainTemplate.render())
+    return Response(template_env.get_template("main.html").render())
 
 def somethingBigger(request):
-    return Response(sobigTemplate.render())
+    return Response(template_env.get_template("somethingbigger.html").render())
 
 def detail(request):
     item=request.matchdict['item']
@@ -72,13 +62,11 @@ def detail(request):
         item1, item2 = name.split(" with ")
         if item == item1: matches.append(item2 + " | " + names[name])
         if item == item2: matches.append(item1 + " | " + names[name])
-    return Response(detailTemplate.render(item=item, matches=matches))
+    return Response(template_env.get_template("detail.html").render(item=item, matches=matches))
 
 def why(req):
-    return Response(probTemplate.render())
+    return Response(template_env.get_template("problemstatement.html").render())
 
-def get_js(request):
-    return render_to_response("string", JS)
 
 if __name__ == "__main__":
     with Configurator() as config:
@@ -92,8 +80,13 @@ if __name__ == "__main__":
         config.add_view(somethingBigger, route_name="sobig")
         config.add_route("why", "/why")
         config.add_view(why, route_name="why")
-        config.add_route("js", "/script.js")
-        config.add_view(get_js, route_name="js")
+
+        config.add_static_view(name="/static", path="togo:/static/")
+        config.add_static_view(name="/static/css", path="togo:/static/css/")
+        config.add_static_view(name="/static/js", path="togo:/static/js/")
+
+        config.scan()
         app = config.make_wsgi_app()
+        
     waitress.serve(app, port=8000)
 
